@@ -19,3 +19,4 @@ Route::get('/posts/{post}/edit', 'PostController@edit');
 Route::put('/posts/{post}', 'PostController@update');
 Route::get('/posts/{post}', 'PostController@show');
 Route::post('/posts', 'PostController@store');
+Route::delete('/posts/{post}', 'PostController@destroy');
